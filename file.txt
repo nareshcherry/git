@@ -1,2 +1,2 @@
-this is my file for git practice
+abcd 
 at present workin on remote
