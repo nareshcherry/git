@@ -1,5 +1,5 @@
 ---
- - hosts: all
+ - hosts: dev
    become: true
    gathering_facts: no
    tasks:
