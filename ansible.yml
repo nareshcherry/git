@@ -1,0 +1,10 @@
+---
+ - hosts: all
+   become: true
+   gathering_facts: no
+   tasks:
+     - name: install java
+       yum:
+         state: installed
+      
+   
