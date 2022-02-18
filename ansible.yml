@@ -1,7 +1,6 @@
 ---
  - hosts: dev
    become: true
-   gathering_facts: no
    tasks:
      - name: install java
        yum:
