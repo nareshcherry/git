@@ -1,6 +1,7 @@
 ---
  - hosts: slave
    become: true
+   connection: ssh
    tasks:
      - name: inastall java
        yum: 
