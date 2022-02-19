@@ -1,10 +1,7 @@
 ---
- - hosts: dev
+ - hosts: slave
    become: true
    tasks:
-     - name: install java
-       yum:
-         name: java
-         state: installed
+     - ping
       
    
