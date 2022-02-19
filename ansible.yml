@@ -1,7 +1,6 @@
 ---
  - hosts: dev
    become: true
-   connection: ssh
    tasks:
      - name: inastall java
        yum: 
