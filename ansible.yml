@@ -2,6 +2,11 @@
  - hosts: dev
    become: true
    tasks:
+     -file:
+        path: "/home/slave2/naresh"
+        state: touch
+        mode: 0777
+   tasks:
      - name: inastall java
        yum: 
          name: java
